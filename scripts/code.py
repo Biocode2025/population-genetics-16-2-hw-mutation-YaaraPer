@@ -15,4 +15,7 @@ for i in range(1, gen + 1):
     cc = q**2
     q = q / (q + 1)
 
-    
+    # כתיבה בקובץ
+    f.write(f"{i}\t{round(q,5)}\t{round(CC,5)}\t{round(Cc,5)}\t{round(cc,5)}\n")
+# סגירת הקובץ
+f.close()
